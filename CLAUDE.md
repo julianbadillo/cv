@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Personal CV / portfolio website for Julian Badillo. Originally exported from a Figma Make file (https://www.figma.com/design/p6yzmaeY5FQxP3HbbytENI/Replicate-Design) and progressively turned into hand-built React sections. Single-page site with smooth-scroll navigation between Hero, Skills, Experience, Education, Awards, Footer.
+Personal CV / portfolio website for Julian Badillo. Originally exported from a Figma Make and progressively turned into hand-built React sections. Single-page site with smooth-scroll navigation between Hero, Skills, Experience, Education, Awards, Footer.
 
 ## Commands
 
