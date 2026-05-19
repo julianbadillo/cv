@@ -6,7 +6,7 @@ export default function HeroSection() {
           Julian Badillo
         </h1>
         <p className="font-['Alexandria',sans-serif] font-bold text-[#29e7d1] text-[32px] tracking-[1.28px]">
-          SOFTWARE ENGINEER
+          FULLSTACK ENGINEER
         </p>
       </div>
     </section>
