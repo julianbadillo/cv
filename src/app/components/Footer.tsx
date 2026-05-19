@@ -16,8 +16,8 @@ function GithubIcon({ size = 28 }: { size?: number }) {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#32333c] py-8">
-      <div className="max-w-6xl mx-auto px-8 text-center">
+    <footer className="bg-[#32333c] py-6 md:py-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 text-center">
         <div className="flex justify-center gap-6 mb-4">
           <a
             href="https://github.com/julianbadillo"
