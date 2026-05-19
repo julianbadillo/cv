@@ -29,7 +29,7 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="bg-[#32333c] min-h-screen flex items-center justify-center py-20">
       <div className="max-w-7xl w-full px-8">
-        <h2 className="font-['Alexandria:Bold',sans-serif] font-bold text-[#29e7d1] text-[56px] tracking-[-1.12px] mb-16 text-center">
+        <h2 className="font-['Alexandria',sans-serif] font-bold text-[#29e7d1] text-[56px] tracking-[-1.12px] mb-16 text-center">
           SKILLS
         </h2>
         <div className="flex gap-10">
@@ -40,7 +40,7 @@ export default function SkillsSection() {
                 <button
                   key={skillGroup.category}
                   onClick={() => setSelectedCategory(index)}
-                  className={`w-full text-left px-6 py-4 rounded-lg font-['Alexandria:Bold',sans-serif] font-bold text-[20px] tracking-[-0.4px] transition-all duration-200 ${
+                  className={`w-full text-left px-6 py-4 rounded-lg font-['Alexandria',sans-serif] font-bold text-[20px] tracking-[-0.4px] transition-all duration-200 ${
                     selectedCategory === index
                       ? 'bg-[#29e7d1] text-[#32333c] shadow-lg'
                       : 'text-white hover:bg-white hover:bg-opacity-20 hover:text-[#2f9ddc]'
@@ -55,14 +55,14 @@ export default function SkillsSection() {
           {/* Content Area */}
           <div className="flex-1">
             <div className="bg-white p-10 rounded-xl shadow-2xl min-h-[500px]">
-              <h3 className="font-['Alexandria:Bold',sans-serif] font-bold text-[#32333c] text-[36px] tracking-[-0.72px] mb-8 pb-4 border-b-4 border-[#29e7d1]">
+              <h3 className="font-['Alexandria',sans-serif] font-bold text-[#32333c] text-[36px] tracking-[-0.72px] mb-8 pb-4 border-b-4 border-[#29e7d1]">
                 {skills[selectedCategory].category}
               </h3>
               <div className="grid grid-cols-2 gap-5">
                 {skills[selectedCategory].items.map((skill) => (
                   <div
                     key={skill}
-                    className="font-['Alexandria:Bold',sans-serif] text-[#32333c] text-[20px] tracking-[-0.4px] flex items-center bg-[#f1fdff] px-5 py-3 rounded-lg border-l-4 border-[#29e7d1] hover:shadow-md transition-shadow"
+                    className="font-['Alexandria',sans-serif] text-[#32333c] text-[20px] tracking-[-0.4px] flex items-center bg-[#f1fdff] px-5 py-3 rounded-lg border-l-4 border-[#29e7d1] hover:shadow-md transition-shadow"
                   >
                     <span className="text-[#29e7d1] mr-4 text-[20px] font-bold">●</span>
                     {skill}
