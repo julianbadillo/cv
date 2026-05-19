@@ -4,23 +4,23 @@ export default function SkillsSection() {
   const skills = [
     {
       category: "Programming Languages",
-      items: ["Python", "JavaScript", "HTML", "CSS", "C#", "Java", "SQL", "Kotlin", "C/C++", "TypeScript", "Go", "Ruby", "Matlab"]
+      items: ["Python", "TypeScript", "SQL", "HTML", "CSS", "C#", "Java", "Kotlin", "C/C++", "Matlab"]
     },
     {
       category: "Databases",
-      items: ["PostgreSQL", "SQL Server", "Oracle DB", "MySql", "MariaDB", "MongoDB", "LiteDB"]
+      items: ["Snowflake", "PostgreSQL", "SQL Server", "Oracle DB", "MySql", "MariaDB", "MongoDB", "LiteDB"]
     },
     {
-      category: "Web framework",
+      category: "Web Frameworks",
       items: ["React", "Django", "ASP MVC", "Node.js", "Express", "JEE", "Ruby on Rails"]
     },
     {
       category: "Developer",
-      items: ["Mentoring Requirements", "Specs", "Full Stack", "DevOps", "HCI", "UI / UX", "Data Architecture", "Prompt Engineering"]
+      items: ["Mentoring", "Requirements / Specs", "Full Stack", "DevOps", "HCI", "UI / UX", "Data Architecture", "Prompt Engineering"]
     },
     {
-      category: "Backend",
-      items: ["CSS", "JQuery", "Docker", "Swarm", "Git", "Unix", "Linux", "Bash", "PowerShell"]
+      category: "Miscellaneous",
+      items: ["AI/LLM Integration", "Data Engineering", "dbt", "JQuery", "Docker", "Swarm", "Git", "Linux", "Bash", "PowerShell"]
     }
   ];
 
@@ -40,11 +40,10 @@ export default function SkillsSection() {
                 <button
                   key={skillGroup.category}
                   onClick={() => setSelectedCategory(index)}
-                  className={`w-full text-left px-6 py-4 rounded-lg font-['Alexandria',sans-serif] font-bold text-[20px] tracking-[-0.4px] transition-all duration-200 ${
-                    selectedCategory === index
+                  className={`w-full text-left px-6 py-4 rounded-lg font-['Alexandria',sans-serif] font-bold text-[20px] tracking-[-0.4px] transition-all duration-200 ${selectedCategory === index
                       ? 'bg-[#29e7d1] text-[#32333c] shadow-lg'
                       : 'text-white hover:bg-white hover:bg-opacity-20 hover:text-[#2f9ddc]'
-                  }`}
+                    }`}
                 >
                   {skillGroup.category}
                 </button>

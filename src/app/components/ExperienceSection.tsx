@@ -11,9 +11,11 @@ export default function ExperienceSection() {
         "REST API integration of R&D solutions"
       ],
       accomplishments: [
-        "Integration of E-Lab Notebook, Chemical Inventory and Laboratory systems.",
-        "Implementation of a Company Portal for internal use.",
-        "Refactoring and testing of legacy code."
+        "Data migration from on-prem apps to cloud-hosted.",
+        "Set up data engineering infrastructure in Snowflake.",
+        "Automation of chemical inventory cleanup",
+        "Implementation of internal company Launchpad.",
+        "Refactoring and testing of legacy code in Django / Python."
       ],
       reference: "Paul Boone paul.boone@numat.com"
     },
@@ -30,6 +32,20 @@ export default function ExperienceSection() {
         "Refurbish of physical key inventory tracking tool."
       ],
       reference: "Erik Gottschalk egottschalk@fnal.gov"
+    },
+    {
+      title: "Applications Developer",
+      company: "Fermilab",
+      period: "Jan 2016 - Dec 2020",
+      tasks: [
+        "Design and build full-stack web tools for the projects office.",
+        "Support and maintain existing software tools."
+      ],
+      accomplishments: [
+        "Refactoring and design from scratch of three web tools: fBCR, CAMeToolbox, RAPTR, that automated and improved intensive manual tasks of project controls.",
+        "Exceptional Performance Recognition Award (2018)"
+      ],
+      reference: "Richard Marcum rmarcum@fnal.gov"
     },
     {
       title: "Workflow Team Leader",
